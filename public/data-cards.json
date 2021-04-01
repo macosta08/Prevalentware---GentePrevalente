@@ -1,0 +1,30 @@
+{
+    "status": "success",
+    "status_code": 200,
+    "result": [
+        {
+			"path": "/archivo",
+			"title": "Solicitudes de creación de empresas",
+			"status": "2 solicitudes sin tratar",
+			"type": "solicitud"
+		},
+        {
+			"path": "/",
+			"title": "Indicadores",
+			"status": "Visitado por última vez: 31/01/2020",
+			"type": "indicadores"
+		},
+        {
+			"path": "/",
+			"title": "Inscripción de empleados en empresas",
+			"status": "3 usuarios sin empresa registrada",
+			"type": "inscripcion"
+		},
+        {
+			"path": "/",
+			"title": "Gestión de usuarios",
+			"status": "532 usuarios activos en la plataforma",
+			"type": "gestion"
+		}       
+    ]
+}

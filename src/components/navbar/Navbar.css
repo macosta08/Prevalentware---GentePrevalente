@@ -1,0 +1,9 @@
+/* Define el color del placeholder*/
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+
+/* Para que no aparezca el shadow de bootstap */
+form .form-control:focus {
+  box-shadow: none;
+}

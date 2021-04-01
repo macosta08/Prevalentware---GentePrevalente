@@ -1,0 +1,19 @@
+.pag-top {
+  display: none;
+}
+.bottom {
+  display: none;
+}
+@media (max-width: 800px) {
+  .pag-bottom {
+    display: none;
+  }
+  .pag-top {
+    display: block;
+  }
+
+  .pag-text {
+    font-size: 12px;
+    text-align: center;
+  }
+}
