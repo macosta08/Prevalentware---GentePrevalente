@@ -8,8 +8,8 @@ import "./Form.css";
 export const Form = () => {
   return (
     <div>
-      <Pagination topBottom={"pag-top"} />
       <Breadcrumb />
+      <Pagination topBottom={"pag-top"} />
       <section className="container d-flex justify-content-center ">
         <div className="container-form d-flex flex-column bd-highlight ">
           <div className="d-flex justify-content-end w-100 mt-3">
