@@ -27,16 +27,32 @@ body {
   width: 942px;
 }
 
+.container-header {
+  height: 250px;
+  position: relative;
+}
+
+.container-buttons {
+  position: relative;
+  float: right;
+}
+
 .container-logo {
   align-items: center;
   height: 237px;
   width: 291px;
   background: #f3f3f3;
+  position: absolute;
+  /*Lo siguiente para poder centrar por ser absolute*/
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .logo-empresa {
   height: 151px;
   width: 174px;
+  position: absolute;
 }
 
 .container-form form {
@@ -131,12 +147,6 @@ form .row-form .input-data {
     font-size: 30px;
   }
 
-  .container-logo {
-    height: 137px;
-    width: 191px;
-    margin-top: 50px;
-    background: #f3f3f3;
-  }
   .container-form form {
     padding: 10px 0 0 0;
   }

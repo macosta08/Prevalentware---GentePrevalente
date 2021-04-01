@@ -3,7 +3,7 @@ import "./Pagination.css";
 export const Pagination = ({ topBottom = "pag-bottom" }) => {
   return (
     <div
-      className={`container mt-3 d-flex justify-content-center align-items-center`}
+      className={`container mb-3 d-flex justify-content-center align-items-center`}
     >
       <i
         className={`fas fa-chevron-circle-left ${topBottom}`}

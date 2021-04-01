@@ -10,18 +10,19 @@ export const Form = () => {
     <div>
       <Breadcrumb />
       <Pagination topBottom={"pag-top"} />
-      <section className="container d-flex justify-content-center ">
+      <section className="ml-3 mr-3 d-flex justify-content-center mb-3">
         <div className="container-form d-flex flex-column bd-highlight ">
-          <div className="d-flex justify-content-end w-100 mt-3">
+          <div className="w-100 mt-3 container-header">
             <div className="d-flex justify-content-center container-logo">
               <img
                 src="/img/logo-empresa.png"
-                height="30"
-                className="logo-empresa d-inline-block align-top"
+                className="logo-empresa"
                 alt="logo empresa"
               />
             </div>
-            <FormButtons topBottom={"button-top"} />
+            <div className="container-buttons">
+              <FormButtons topBottom={"button-top"} />
+            </div>
           </div>
 
           <form>
@@ -71,7 +72,7 @@ export const Form = () => {
           </div>
         </div>
       </section>
-      <section className="mt-5 container d-flex justify-content-center ">
+      <section className="container d-flex justify-content-center ">
         <FormButtons topBottom={"button-bottom"} />
       </section>
       <Pagination topBottom={"pag-bottom"} />
